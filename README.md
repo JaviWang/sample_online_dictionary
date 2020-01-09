@@ -16,6 +16,12 @@ make
 
 ### 服务器
 
+编译之前需要先安装sqlite3数据库
+
+``` shell
+sudo apt-get install sqlite3
+```
+
 ``` shell
 cd ./server
 make
